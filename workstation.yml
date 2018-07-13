@@ -23,10 +23,10 @@
     - conky
     - synapse      # Launcher apps.
     - google-chrome
- #   - multimedia
-    - atom
-    - virtualization
-    - skype
-    - dropbox
-    - android
+#   - multimedia
+#   - atom
+#   - virtualization
+#   - skype
+#   - dropbox
+#    - android
     - vscode
