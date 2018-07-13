@@ -1,0 +1,5 @@
+---
+# tasks file for vscode
+
+- name: import os specific tasks
+  include_tasks: "os_{{ ansible_os_family }}.yml"
