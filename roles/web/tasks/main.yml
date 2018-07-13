@@ -1,8 +1,8 @@
 ---
 
-- name: Apache2 | Install required packages
-  dnf: name=httpd state=installed
-  tags: apache2
+- name: Nginx | Install required packages
+  dnf: name=nginx state=installed
+  tags: nginx
 
 
 - name: MariaDB | Install Packages

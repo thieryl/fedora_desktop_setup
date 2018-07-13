@@ -8,11 +8,11 @@
     - Start synapse
 
 - name: "Launcher | create config dir"
-  sudo: false
+  become: false
   file: path=/home/{{ user }}/.config/synapse state=directory mode=0755
 
 - name: "Launcher | Set configuration of ansible_env.LOGNAME"
-  remote_user: liquuid
-  sudo: false
+  remote_user: thieryl
+  become: false
   copy: src=config.json dest=/home/{{ user }}/.config/synapse/config.json owner={{ user }} mode=664
 

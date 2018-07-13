@@ -1,7 +1,7 @@
 ---
 
 - name: LATEX | Install package
-  apt: pkg={{ item }} state=present
+  dnf: pkg={{ item }} state=present
   with_items:
     - texmaker
     - texlive

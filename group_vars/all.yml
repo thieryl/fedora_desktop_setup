@@ -5,7 +5,7 @@ url_apt_key: "http://keyserver.ubuntu.com/pks/lookup?op=get&search="
 
 ntpserver: '0.fr.pool.ntp.org'
 
-user: liquuid
+user: thieryl
 
 web:
   httpd_port: 80
@@ -13,7 +13,7 @@ web:
   project_path: /home/liquuid/devel
 
 php5:
-  php_date_timezone: 'America/Sao_Paulo'
+  php_date_timezone: 'Indian/Mautitius'
 
 mariadb:
   current_password: ''

@@ -1,0 +1,15 @@
+---
+  - name: "Install Python packages: {{ items }}"
+    sudo: true
+    pip: name={{ item }}
+    with_items:
+      - pipenv
+      - pss
+      - requests
+      - comment-builder
+      - boto
+      - ansible
+      - uwsgitop
+      - gitpull
+      - ipython
+      - awscli

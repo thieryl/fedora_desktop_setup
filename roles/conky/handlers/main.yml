@@ -2,5 +2,5 @@
 
 # List handlers for Conky
 - name: Start conky
-  sudo: false
+  become: false
   shell: conky&
